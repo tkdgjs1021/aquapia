@@ -1,0 +1,127 @@
+@charset 'utf-8'; 
+
+@font-face {
+    font-family: 'InfinitySans-RegularA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-RegularA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'InfinitySans-BoldA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-BoldA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#content{
+    
+}
+#section0{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(../images/sub5.png);
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+#section0 h1, #section0 h3{
+    font-family: 'InfinitySans-RegularA1';
+    color: white;
+    position: relative;
+    top: 40%;
+    _top: 490px;
+    width: 1200px;
+    margin: 0 auto;
+    text-align:left;
+}
+#section0 h1{
+    font-size: 48px;
+}
+#section0 h1 span{
+    color: #0053c8;
+}
+#section0 h3{
+    margin-top: 50px;
+    font-size: 24px;
+}
+.p1{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    height: 250px;
+    padding-top: 180px;
+    text-align: center;
+}
+
+/* Section1 */
+#section1{
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+#section1 h1{
+    letter-spacing: 4px;
+    text-align: center;
+    font-family: 'InfinitySans-RegularA1';
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+#section1 h3{
+    text-align: center;
+    font-family: 'InfinitySans-RegularA1';
+    font-size: 18px;
+    margin-bottom: 150px;
+}
+.boximg{
+    width:100%;
+    height: 450px;
+    background: url(../images/contact.png)no-repeat center center;
+}
+.line1{
+    padding-top: 120px;
+    width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.part{
+    text-align: center;
+    float: left;
+    width: 50%;
+}
+.part p{
+    margin-top: 30px;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.part1 img{
+    width: 34%;
+}
+.part2 img{
+    width: 25%;
+}
+.ad{
+    text-align: left;
+    width: 600px;
+    margin: 100px auto;
+}
+.info{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+}
+.info:nth-child(1){
+     margin-bottom: 20px;   
+}
+.info p{
+    display: inline-block;
+}
+.info p:nth-child(1){
+    width: 250px;
+}
+.info p:nth-child(2){
+    width: 160px;
+}
+.info p:nth-child(3){
+    width: 180px;
+}

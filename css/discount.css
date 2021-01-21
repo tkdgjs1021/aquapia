@@ -1,0 +1,205 @@
+@charset 'utf-8'; 
+
+@font-face {
+    font-family: 'InfinitySans-RegularA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-RegularA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'InfinitySans-BoldA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-BoldA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#content{
+    
+}
+#section0{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(../images/sub3.png);
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}
+#section0 h1, #section0 h3{
+    font-family: 'InfinitySans-RegularA1';
+    color: white;
+    position: relative;
+    top: 40%;
+    _top: 490px;
+    width: 1200px;
+    margin: 0 auto;
+    text-align:left;
+}
+#section0 h1{
+    font-size: 48px;
+}
+#section0 h1 span{
+    color: #1f74ec;
+}
+#section0 h3{
+    margin-top: 50px;
+    font-size: 24px;
+}
+.p1{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    height: 250px;
+    padding-top: 180px;
+    text-align: center;
+}
+
+/* Section1 */
+#section1{
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+#section1 h1{
+    letter-spacing: 4px;
+    text-align: center;
+    font-family: 'InfinitySans-RegularA1';
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+#section1 h3{
+    text-align: center;
+    font-family: 'InfinitySans-RegularA1';
+    font-size: 18px;
+    margin-bottom: 150px;
+}
+/* 탭메뉴 */
+.dc{
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    overflow: hidden;
+}
+.dc ul{
+    width: 600px;
+    margin: 0 auto;
+}
+.dc ul li{
+    display:inline-block;
+    width:50%;
+    float:left;
+    line-height:40px;
+    text-align:center;
+    cursor:pointer;
+}
+.dc ul li:nth-child(1){
+    border-right: 1px solid black;
+}
+.dc ul li:nth-child(2){
+    border-left: 1px solid black;
+}
+.dc ul li a{
+    font-size: 24px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.dc ul li.on{
+    text-decoration: underline;
+    font-weight: bold; 
+}
+.dc .box{
+    margin-top: 95px;
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    display:none;
+    text-align:center;
+}
+.dc .box.on{
+    display:block;
+}
+.dc .box div{
+    margin-top: 55px;
+    float: left;
+    width: 370px;
+    height: 250px;
+    display: inline-block;
+    position: relative;
+}
+.dc .box div:nth-child(2), .dc .box div:nth-child(5), .dc .box div:nth-child(8){
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.back{
+    box-shadow: 2px 1px 3px 2px lightgray;
+    width: 370px;
+    height: 250px;
+    line-height: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform:rotateY(90deg);
+    text-align: center;
+}
+.badge{
+    display: none;
+    position: absolute;
+    top: -20px;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.badge.badgeon{
+    display: block;
+}
+.badge7{
+    font-size: 16px;
+}
+.back span{
+    display: block;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: black;
+}
+.back span:nth-child(1){
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 20px;
+}
+.back span:nth-child(2), .back span:nth-child(4){
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.back span:nth-child(3), .back span:nth-child(5){
+    font-size: 16px;
+}
+
+.cardRotate .front{opacity:1;animation: rotateAni 0.3s 1; transform:rotateY(90deg);}
+.cardRotate .back{opacity:1;animation: rotateAni2 0.3s 0.3s 1 backwards; transform:rotateY(0);}
+.backRotate .front{animation: backAni 0.3s 1; opacity:1;}
+.backRotate .back{opacity:0;}
+
+@keyframes rotateAni{
+  0%{transform:rotateY(0);}
+  100%{transform:rotateY(90deg);}
+}
+@keyframes rotateAni2{
+  0%{transform:rotateY(-90deg);}
+  100%{transform:rotateY(0deg);}
+}
+@keyframes backAni{
+  0%{transform:rotateY(90deg);}
+  100%{transform:rotateY(0deg);}
+}
+
+
+
+
+
+

@@ -1,0 +1,227 @@
+@charset 'utf-8'; 
+
+@font-face {
+    font-family: 'InfinitySans-RegularA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-RegularA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'InfinitySans-BoldA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-BoldA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#content{
+    
+}
+#section0{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(../images/sub2.png);
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}
+#section0 h1, #section0 h3{
+    font-family: 'InfinitySans-RegularA1';
+    color: white;
+    position: relative;
+    top: 40%;
+    _top: 490px;
+    width: 1200px;
+    margin: 0 auto;
+    text-align:left;
+}
+#section0 h1{
+    font-size: 48px;
+}
+#section0 h1 span{
+    color: #0053c8;
+}
+#section0 h3{
+    margin-top: 50px;
+    font-size: 24px;
+}
+.p1{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    height: 250px;
+    padding-top: 180px;
+    text-align: center;
+}
+
+/* Section1 */
+#section1{
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+#section1 h1{
+    letter-spacing: 4px;
+    text-align: center;
+    font-family: 'InfinitySans-RegularA1';
+    font-size: 60px;
+    margin-bottom: 80px;
+}
+.line1{
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.line2{
+    overflow: hidden;
+    margin-bottom: 350px;
+}
+.box1, .box2, .box3, .box4{
+    width: 580px;
+    height: 256px;
+    line-height: 256px;
+    float: left;
+    text-align: center;
+    font-family: 'InfinitySans-RegularA1';
+    font-size: 24px;
+    color: white;
+}
+.box1 p, .box2 p, .box3 p, .box4 p{
+    display: none;
+}
+.box1{
+    background: url(../images/box1.png)center center no-repeat;
+    background-size: cover;
+    margin-right: 20px;
+}
+.box2{
+    background: url(../images/box2.png)center center no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+}
+.box3{
+    background: url(../images/box3.png)center center no-repeat;
+    background-size: cover;
+    margin-right: 20px;
+}
+.box4{
+    background: url(../images/box4.png)center center no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+}
+
+/* Section2 */
+#section2{
+    width: 1200px;
+    margin: 0 auto;
+}
+#section2 h2{
+    font-family: 'InfinitySans-RegularA1';
+    font-size: 36px;
+    color: #0053c8;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.con1, .con2, .con3, .con4{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 200px;
+}
+.article1 p, .article2 p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.con1 .article1{
+    width: 600px;
+    height: 400px;
+    background: #1f74ec;
+    position: relative;
+    z-index: 10;
+    left: 300px;
+}
+.con1 .article1 p{
+    padding-top: 160px;
+    line-height: 30px;
+}
+.con1 .article2{
+    width: 600px;
+    height: 400px;
+    background: url(../images/article1.png);
+    position: absolute;
+    top: 99px;
+    right: 300px;
+    z-index: 9;
+}
+.con2 .article1{
+    width: 600px;
+    height: 400px;
+    background: #1f74ec;
+    position: absolute;
+    top: 99px;
+    right: 300px;
+    z-index: 9;
+}
+.con2 .article1 p{
+    padding-top: 160px;
+    line-height: 30px;
+}
+.con2 .article2{
+    width: 600px;
+    height: 400px;
+    background: url(../images/article2.png);
+    position: relative;
+    z-index: 10;
+    top: 0px;
+    left: 300px;
+}
+.con3 .article1{
+    width: 600px;
+    height: 400px;
+    background: #1f74ec;
+    position: relative;
+    z-index: 10;
+    left: 300px;
+}
+.con3 .article1 p{
+    padding-top: 165px;
+    line-height: 30px;
+}
+.con3 .article2{
+    width: 600px;
+    height: 400px;
+    background: url(../images/article3.png);
+    position: absolute;
+    top: 99px;
+    right: 300px;
+    z-index: 9;
+}
+.con4 .article1{
+    width: 600px;
+    height: 400px;
+    background: #1f74ec;
+    position: absolute;
+    top: 99px;
+    right: 300px;
+    z-index: 9;
+}
+.con4 .article1 p{
+    padding-top: 160px;
+    line-height: 30px;
+}
+.con4 .article2{
+    width: 600px;
+    height: 400px;
+    background: url(../images/article4.png);
+    position: relative;
+    z-index: 10;
+    top: 0px;
+    left: 300px;
+}
+
+
+
+
+

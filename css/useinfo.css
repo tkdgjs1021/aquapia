@@ -1,0 +1,224 @@
+@charset 'utf-8'; 
+
+@font-face {
+    font-family: 'InfinitySans-RegularA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-RegularA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'InfinitySans-BoldA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-BoldA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#content{
+    
+}
+.p1{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    height: 250px;
+    padding-top: 180px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+/* Section1 */
+#section1{
+    margin-bottom: 100px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+#section1 h1{
+    letter-spacing: 4px;
+    text-align: center;
+    font-family: 'InfinitySans-RegularA1';
+    font-size: 60px;
+    margin-bottom: 80px;
+}
+.box1{
+    color: white;
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+    height: 256px;
+    background: #0053c8;
+}
+.box1 h3{
+    font-size: 24px;
+    padding-top: 50px;
+}
+.box1 h2{
+    padding-top: 40px;
+    padding-bottom: 25px;
+    font-size: 36px;
+}
+.box1 h4{
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+.txt{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 100px;
+    border-bottom: 2px solid #e7e7e7;
+    width: 1200px;
+    margin: 0 auto;
+}
+.sp1{
+    font-weight: bold;
+    vertical-align: top;
+    font-size: 24px;
+}
+.sp2{
+    padding-left: 150px;
+    display: inline-block;
+}
+.pp1{
+    text-align: left;
+    line-height: 30px;
+}
+
+/* Section2 */
+#section2{
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+#section2 h1{
+    text-align: center;
+    font-family: 'InfinitySans-RegularA1';
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+#section2 h3{
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.box2{
+    overflow: hidden;
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 1px 1px lightgray;
+}
+.box2_1{
+    color: white;
+    text-align: center;
+    float: left;
+    width: 50%;
+    height: 256px;
+    background: #0053c8;
+}
+.box2_1 p{
+    padding-left: 100px;
+    line-height: 33px;
+    text-align: left;
+    font-size: 18px;
+}
+.box2_1 p:first-child{
+    padding-top: 95px;
+}
+.box2_1 p:last-child{
+    padding-bottom: 95px;
+}
+.box2_1 p .s1{
+    margin-left: 220px;
+}
+.box2_1 p .s2{
+    margin-left: 271px;
+}
+.box2_2{
+    float: left;
+    width: 50%;
+    height: 256px;
+}
+.box2_2 p{
+    font-size: 18px;
+    line-height: 29px;
+    padding-left: 40px;
+    text-align: left;
+    font-size: 18px;
+}
+.box2_2 p:first-child{
+    margin-top: 85px;
+}
+.box2_2 p:last-child{
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 85px;
+}
+.more{
+    _margin-top: 50px;
+    text-align: center;
+    width: 160px;
+    margin: 0 auto;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid #1f74ec;
+}
+.more a{
+    line-height: 23px;
+    display: block;
+    color: black;
+    font-size: 16px;
+    line-height: 50px;
+}
+
+/* Section3 */
+#section3{
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+#section3 h3{
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.box3{
+    text-align: center;
+    overflow: hidden;
+}
+.box3 h4{
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 40px;
+}
+.box3 img{
+    width: 25%;
+    margin-top: 50px;
+}
+.box3 h2{
+    color: white;
+    display: none;
+    line-height: 256px;
+    text-align: center;
+}
+.box3_1{
+    float: left;
+    background: #0149af;
+    width: 390px;
+    height: 256px;
+}
+.box3_2{
+    float: left;
+    background: #0149af;
+    width: 390px;
+    height: 256px;
+    margin: 0px 15px 0 15px;
+}
+.box3_3{
+    float: left;
+    background: #0149af;
+    width: 390px;
+    height: 256px;
+}
+.box3_3 h2, .box3_3 h4{
+    color: white;
+}
+

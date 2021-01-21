@@ -1,0 +1,168 @@
+@charset 'utf-8'; 
+
+@font-face {
+    font-family: 'InfinitySans-RegularA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-RegularA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'InfinitySans-BoldA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-BoldA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#content{
+    
+}
+#section0{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(../images/sub4.png);
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+#section0 h1, #section0 h3{
+    font-family: 'InfinitySans-RegularA1';
+    color: white;
+    position: relative;
+    top: 40%;
+    _top: 490px;
+    width: 1200px;
+    margin: 0 auto;
+    text-align:left;
+}
+#section0 h1{
+    font-size: 48px;
+}
+#section0 h1 span{
+    color: #0053c8;
+}
+#section0 h3{
+    margin-top: 50px;
+    font-size: 24px;
+}
+.p1{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    height: 250px;
+    padding-top: 180px;
+    text-align: center;
+}
+
+/* Section1 */
+#section1{
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+#section1 h1{
+    letter-spacing: 4px;
+    text-align: center;
+    font-family: 'InfinitySans-RegularA1';
+    font-size: 60px;
+    margin-bottom: 80px;
+}
+.box1{
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 256px;
+    background: url(../images/section4.png)no-repeat center center;
+    background-attachment: fixed;
+}
+.box1 h2{
+    line-height: 256px;
+    font-size: 36px;
+}
+.border{
+    margin: 75px 0;
+    width: 100%;
+    height: 2px;
+    background: #e7e7e7;
+}
+
+/* Section2 */
+#section2{
+    overflow: hidden;
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.line{
+    overflow: hidden;
+}
+.line li{
+    text-align: center;
+    float: left;
+    width: 350px;
+    height: 300px;
+    border-radius: 30px;
+    background: lightgray;
+}
+.line li.on{
+    transform: rotateZ(360deg);
+    transition: all 0.75s;
+    background: gray;
+}
+.line li:hover{
+    background: gray;
+}
+.line li:nth-child(2){
+    margin: 0 75px;
+}
+.line li a{
+    display: block;
+    width: 350px;
+    height: 300px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.line li img{
+    width: 40%;
+}
+.line li p{
+    color: white;
+    font-size: 28px;
+    font-family: 'InfinitySans-RegularA1';
+    margin-top: 40px;
+}
+.box{
+    margin-top: 75px;
+    border: 2px solid lightgray;
+    width: 100%;
+    height: 300px;
+    border-radius: 30px;
+    display: none;
+    float: left;
+}
+.box.on{
+    display: block;
+}
+.article h2{
+    text-align: center;
+    font-size: 24px;
+    margin: 15px 0;
+}
+.article h3{
+    font-weight: normal;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.article .text{
+    width: 400px;
+    margin: 0 auto;
+}
+.article p{
+    font-size: 15px;
+    line-height: 30px;
+}
+
+

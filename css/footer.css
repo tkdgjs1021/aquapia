@@ -1,0 +1,59 @@
+@charset 'utf-8'; 
+
+@font-face {
+    font-family: 'InfinitySans-RegularA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-RegularA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'InfinitySans-BoldA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-BoldA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+#footer{ 
+    height: 200px;
+}
+/* Footer */
+.foot{
+    background-color:#eaeaea;
+    overflow: hidden;
+    height: 200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 25px 100px 25px 100px;
+}
+.foot h2{
+    margin-top: 35px;
+    text-align: left;
+    float: left;
+    width: 25%;
+}
+.address{
+    margin-top: 60px;
+    margin-bottom: 44px;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.address p{
+    font-size: 12px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.address .txt1{
+    margin-bottom: 10px;
+}
+.address .txt2{
+    margin-top: 10px;
+}
+.foot>h3{
+    margin-top:70px;
+    margin-bottom: 60px;
+    width: 25%;
+    text-align: right;
+    float: left;
+    font-size: 12px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
