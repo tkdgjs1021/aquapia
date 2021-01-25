@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AquaPia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/animal.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/aos.css">
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    
+    <script src="https://kit.fontawesome.com/6411820a12.js" crossorigin="anonymous"></script>
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="../js/jquery.easing.1.3.js"></script>
+    <script src="../js/animal.js"></script>
+    <script src="../js/aos.js"></script>
+    <script src="../js/swiper.min.js"></script>
+    <script>
+        $(function(){
+           $("#header").load("header2.html");
+           $("#footer").load("footer.html");
+            
+        });
+    </script>
+</head>
+<body>
+   <div id="header">
+        
+   </div>
+   <div id="content">
+       <p class="p1"><a href="../index.html">HOME&nbsp;&nbsp;</a>>&nbsp;&nbsp;<a href="program.html">인포메이션&nbsp;&nbsp;</a>>&nbsp;&nbsp;<a href="animal.html">전시동물</a></p>
+       <div id="section1">
+           <h1>전시동물</h1>
+           <h3>아쿠아피아만의 다양한 친구들을 만나보세요.</h3>
+       </div>
+       <div id="section2">
+           <div class="swiper-container">
+                <div class="swiper-wrapper card">
+                    <div class="swiper-slide front"><img src="../images/angel.png" alt=""></div>
+                    <div class="back">엠퍼러엔젤피쉬</div>
+                    
+                    <div class="swiper-slide"><img src="../images/blue.png" alt=""></div>
+                    <div class="back">블루탱</div>
+                    
+                    <div class="swiper-slide"><img src="../images/clown.png" alt=""></div>
+                    <div class="back">퍼큘러클라운피쉬</div>
+                    
+                    <div class="swiper-slide"><img src="../images/fire.png" alt=""></div>
+                    <div class="back">파이어고비</div>
+                    
+                    <div class="swiper-slide"><img src="../images/gaori.png" alt=""></div>
+                    <div class="back">얼룩매가오리</div>
+                    
+                    <div class="swiper-slide"><img src="../images/penguin.png" alt=""></div>
+                    <div class="back">홈볼트펭귄</div>
+                    
+                    <div class="swiper-slide"><img src="../images/piranha.png" alt=""></div>
+                    <div class="back">피라냐</div>
+                    
+                    <div class="swiper-slide"><img src="../images/puffer.png" alt=""></div>
+                    <div class="back">흑점꺼끌복</div>
+                    
+                    <div class="swiper-slide"><img src="../images/shark.png" alt=""></div>
+                    <div class="back">샌드타이거샤크</div>
+                    
+                    <div class="swiper-slide"><img src="../images/sudal.png" alt=""></div>
+                    <div class="back">작은발톱수달</div>
+                    
+                    <div class="swiper-slide"><img src="../images/turtle.png" alt=""></div>
+                    <div class="back">푸른바다거북</div>
+                    
+                    <div class="swiper-slide"><img src="../images/woopa.png" alt=""></div>
+                    <div class="back">우파루파</div>
+                </div>
+                <div class="bbbb"></div>
+                <div class="swiper-scrollbar js-swiper-scrollbar"></div>
+           </div>
+       </div>
+   </div>
+   <div id="footer">
+       
+   </div>
+   <script>
+        AOS.init();
+       
+           var swiper = new Swiper('.swiper-container', {
+                slidesPerView: 3.5,
+                spaceBetween: 30,
+                freeMode: true,
+                scrollbar: {
+                    el: '.js-swiper-scrollbar',
+                    draggable: true,
+                    snapOnRelease: true,
+                },
+            });
+    </script>
+    
+</body>
+</html>
